@@ -27,6 +27,7 @@ public class ques_1 {
 //        System.out.println(Arrays.toString(str));
         for(String num : str){
             System.out.print(num + " ");
+            System.out.println("Hello World");
         }
         }
 
