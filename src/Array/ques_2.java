@@ -1,4 +1,4 @@
-/* Swapping an elements in array */
+/* Q.2 => Swapping an elements in array */
 package Array;
 
 import java.util.Arrays;
