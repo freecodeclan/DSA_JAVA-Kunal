@@ -1,3 +1,4 @@
+/* Ques 2 --> check whether number is Armstrong or not and print all 3 digit Armstrong numbers */
 package Functions;
 
 import java.util.Arrays;
