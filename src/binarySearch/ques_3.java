@@ -12,6 +12,9 @@ public class ques_3 {
 
     }
     static int ceiling(int[] arr, int t){
+        if(t > arr[arr.length - 1]){
+            return -1;              // If targeted value is greater than the largest number in an array
+        }
         int s = 0;
         int e = arr.length - 1;
 
