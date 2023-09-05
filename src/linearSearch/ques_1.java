@@ -1,4 +1,4 @@
-/* Find the targeted value from an array using Linear Search */
+/* Take an input from a user and find the targeted value from an array using Linear Search and return the index value of the targeted value */
 package linearSearch;
 
 import java.util.Scanner;

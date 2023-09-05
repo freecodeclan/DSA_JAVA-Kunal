@@ -22,3 +22,4 @@ public class ques_2 {
         a[index2] = temp;
     }
 }
+
