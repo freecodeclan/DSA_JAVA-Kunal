@@ -1,6 +1,8 @@
-/* Search in Rotated Sorted Array (leetcode 33 ) Very Imp Ques
+/* Search in Rotated Sorted Array (leetcode 33) Very Imp Ques
 
 There is an integer array nums sorted in ascending order (with distinct values).
+
+Note -- We can do this question in a single method using recursion.
  */
 package binarySearch;
 
@@ -14,12 +16,12 @@ public class ques_10 {
     }
     static int search(int[] nums, int target){
         int pivot = findPivot(nums);
-        // if we did not find pivot it means array is not rotated
+        /* if we did not find pivot, it means an array is not rotated */
         if(pivot == -1){
             // just do normal binary search
             return binarySearch(nums,target, 0, nums.length - 1);
         }
-        // if pivot is found,you have found 2 ascending sorted arrays
+        /* if pivot is found,you have found two ascending sorted arrays */
         if(nums[pivot] == target){
             return pivot;
         }
@@ -44,6 +46,7 @@ public class ques_10 {
         }
         return -1;
 }
+// Finding the largest value in a sorted rotated array
 static int findPivot(int[] arr){
         int start = 0;
         int end = arr.length - 1;
