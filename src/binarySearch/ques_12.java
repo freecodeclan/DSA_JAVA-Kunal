@@ -6,9 +6,9 @@ public class ques_12 {
         int[] nums = {4,5,6,0,1,2};
         int[] ar = {1,2,3,4,5,6};
         int[] arr = {4,5,6,6,1,2,3};
-        System.out.println("No. of Rotations in duplicate array is " + countRotations(nums));
-        System.out.println("No. of Rotations in sorted array " + countRotations(ar));
-        System.out.println("No. of Rotations in duplicate array is " + countRotations(arr));
+        System.out.println("No. of Rotations in duplicate array is " + countRotations(nums) + " times");
+        System.out.println("No. of Rotations in sorted array " + countRotations(ar) + " times");
+        System.out.println("No. of Rotations in duplicate array is " + countRotations(arr) + " times");
 
     }
     private static int countRotations(int[] arr) {
