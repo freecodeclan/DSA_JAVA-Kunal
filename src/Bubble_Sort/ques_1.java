@@ -1,3 +1,4 @@
+/* Sort an array using bubble Sort */
 package Bubble_Sort;
 
 import java.util.Arrays;
@@ -25,7 +26,7 @@ public class ques_1 {
                     swapped = true;
                 }
             }
-            // if you did not swapped for a particular value of i, it means the array is sorted and hence stop the loop
+            /* if you did not swap for a particular value of i, it means the array is sorted and hence stop the loop */
             if(!swapped) {
                 break;
             }
