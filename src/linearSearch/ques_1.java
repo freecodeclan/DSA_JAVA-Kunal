@@ -24,9 +24,7 @@ public class ques_1 {
         }
         for(int i = 0; i < a.length; i++){
             int element = a[i];
-            if (element == target){
-                return i;
-            }
+            if (element == target) return i;
         }
         return -1;
     }

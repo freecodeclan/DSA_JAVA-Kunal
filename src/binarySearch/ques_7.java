@@ -1,4 +1,5 @@
-/* Find position of an element in a sorted array of infinite numbers */
+/* Find position of an element in a sorted array of infinite numbers
+Solve without using Array.length function */
 package binarySearch;
 
 public class ques_7 {
