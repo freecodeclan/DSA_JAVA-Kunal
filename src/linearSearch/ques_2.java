@@ -1,4 +1,4 @@
-/* Checked whether the targeted value present in  string or not  */
+/* Checked whether the targeted value presents in string or not  */
 package linearSearch;
 
 import java.util.Scanner;

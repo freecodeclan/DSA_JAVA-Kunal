@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class ques_1 {
     public static void main(String[] args) {
-        int[] arr = {-10, -2, -12, 1, 4, 2};
+        int[] arr = {-10, -2, -12, 0, 4, 2};
         insertionSort(arr);
         System.out.println(Arrays.toString(arr));
 
