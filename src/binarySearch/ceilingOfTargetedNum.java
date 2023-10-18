@@ -1,16 +1,20 @@
-/* Find the indexValue of the targeted value using Order-Agnostic Binary Search */
+/* Find the ceiling of a targeted number in an array */
 package binarySearch;
 
-public class OrderAgnosticB_S {
+public class ceilingOfTargetedNum {
     public static void main(String[] args) {
-        int[] ar = {5,10,12,15,20,25};
-        int target = 20;
+        int[] ar = {2,3,5,9,13,15,18};
 
-        int ans = orderAgnosticBS(ar, target);
-        System.out.println(ans);
+        int target = 6;
+
+        int nearValue = ceiling(ar, target);
+        System.out.println(nearValue);
 
     }
-    static int orderAgnosticBS(int[] arr, int t){
+    static int ceiling(int[] arr, int t){
+        if(t > arr[arr.length - 1]){
+            return -1;              // If targeted value is greater than the largest number in an array
+        }
         int s = 0;
         int e = arr.length - 1;
 
@@ -44,6 +48,6 @@ public class OrderAgnosticB_S {
             }
 
         }
-        return -1;
+        return s;       // In ceiling of a number instead of returning -1 we just return start.
     }
 }
