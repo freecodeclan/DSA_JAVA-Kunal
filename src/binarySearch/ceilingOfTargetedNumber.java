@@ -1,7 +1,7 @@
 /* Find the ceiling of a targeted number in an array */
 package binarySearch;
 
-public class ques_3 {
+public class ceilingOfTargetedNumber {
     public static void main(String[] args) {
         int[] ar = {2,3,5,9,13,15,18};
 

@@ -1,7 +1,7 @@
 /* Find the indexValue of the targeted value using Order-Agnostic Binary Search */
 package binarySearch;
 
-public class ques_2 {
+public class OrderAgnosticB_S {
     public static void main(String[] args) {
         int[] ar = {5,10,12,15,20,25};
         int target = 20;
