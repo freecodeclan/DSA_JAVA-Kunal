@@ -5,7 +5,7 @@
 */
 package binarySearch;
 
-public class ques_5 {
+public class leetCode_744 {
     public static void main(String[] args) {
         char[] letters = {'c', 'f', 'j'};
         char target = 'j';

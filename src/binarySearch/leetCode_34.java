@@ -11,7 +11,7 @@ package binarySearch;
 
 import java.util.Arrays;
 
-public class ques_6 {
+public class leetCode_34 {
     public static void main(String[] args) {
         int[] nums = {5,7,7,8,10};
         int target = 7;

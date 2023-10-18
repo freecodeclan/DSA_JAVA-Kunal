@@ -1,7 +1,7 @@
 /* Find the indexValue of the targeted value using Binary Search */
 package binarySearch;
 
-public class findIndexValOfTargetVal {
+public class findIndexValueOfTargetVal {
     public static void main(String[] args) {
         int[] a = {2,6,8,10,14,18,20};
         int target = 15;

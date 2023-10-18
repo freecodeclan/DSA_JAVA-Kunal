@@ -6,7 +6,7 @@ Note -- We can do this question in a single method using recursion.
  */
 package binarySearch;
 
-public class ques_10 {
+public class searchRotatedArray_leetCode_33 {
     public static void main(String[] args) {
         int[] nums = {4,5,6,0,1,2};
         int target = 0;

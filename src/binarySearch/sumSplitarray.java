@@ -10,7 +10,7 @@ NOTE -- We'll do later
  */
 package binarySearch;
 
-public class ques_13 {
+public class sumSplitarray {
     public static void main(String[] args) {
         
     }

@@ -2,7 +2,7 @@
  */
 package binarySearch;
 
-public class ques_8 {
+public class peakIndexMountain_leetCode_852 {
     public static void main(String[] args) {
         int[] arr = {2,4,5,8,6,3,2,1};
 

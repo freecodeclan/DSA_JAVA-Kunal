@@ -1,7 +1,7 @@
 /* Find the floor of a target number in an array */
 package binarySearch;
 
-public class ques_4 {
+public class floorOfTargetNum {
     public static void main(String[] args) {
         int[] ar = {2, 3, 5, 9, 13, 15, 18};
 
